@@ -54,8 +54,9 @@ To guarantee the cost function to be optimized (global minima), it is defined as
 
 This intuition can be easiliy extended for more than two categories, by using the multinomial logistic regression. 
 
-<img src="../image/ZOnIK.png">
+<img src="/image/ZOnIK.png">
 
+blob/main
 
 ## References
 
