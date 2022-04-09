@@ -1,4 +1,4 @@
-# :airplane: :seat: :airplane_arrival: The Models 
+# :airplane: :seat: :airplane arrival: The Models 
 
 # Description of models
 
