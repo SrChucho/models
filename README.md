@@ -4,28 +4,49 @@
 
 ## 1. Data
 
-We get the data from 
+We extract 1,000 tweets mentioning @JetBlue and 1,000 mentioning @SouthwestAir from the [Twitter API](https://developer.twitter.com/en) for a particular day on march 2022.  We filter out retweets during this part of the process.
+During extraction we define the following variables: 
 
-Then, we clean the tweets by:
+* **user** : Twitter user account originating the tweet
+* **text** :  Full text content in each tweet
+* **followers** :  Number of user accounts that follow the given user
+* **location** :  Geographic location from the given user
+* **verified** :  Indicator equal 1 if the account has this condition
+
+Then, each team member manually tagged 500 tweets into three categories
+
+* **1** Positive perception towards the airline
+* **-1** Negative perception towards the airline
+* **0** Neutral perception towards the airline
+
+
+We also verify for [Twitterbots](https://es.wikipedia.org/wiki/Twitterbot) by XXXX
+
+## 2. Feature engineering
+
+We clean the tweets by:
 
 - [x] Convert text to lowercase
 - [x] Remove all URLs
-- [x] Remove twitter accounts (@)
+- [x] Remove Twitter accounts (@)
 - [x] Remove specific names
 - [x] Trim blank spaces
 - [x] Remove punctuations, symbols and numbers
 - [x] Remove non-English tweets
 - [x] Remove stop words
+- [x] Remove hastags (#)
 
-## 2. Feature engineering
+## 3. Algorithm
 
-We create four variables from the raw data:
+We consider the following methods
 
-* **user** : Account 
-* **text** :  Tweet
-* **followers** :  Number of accounts that follow the given user
-* **location** :  Geographic ubication of the given user
-* **verified** :  Indicator equal 1 if the account has this condition
+
+## Naive Bayes Algorithm
+
+
+
+## Logistic Regression
+
 
 ## References
 
