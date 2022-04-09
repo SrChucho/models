@@ -1,4 +1,4 @@
-# :cocktail: :tropical_drink: :wine_glass: The Models :tumbler_glass: :bubble_tea: :cup_with_straw:
+# :airplane: :seat: :airplane_arrival: The Models 
 
 # Description of models
 
@@ -51,3 +51,4 @@ We consider the following methods
 ## References
 
 - [Sentiment Analysis: An Introduction to Naive Bayes Algorithm](https://towardsdatascience.com/sentiment-analysis-introduction-to-naive-bayes-algorithm-96831d77ac91)
+- Introduction to Logistic Regression](https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148)
