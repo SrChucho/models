@@ -21,11 +21,11 @@ Then, we clean the tweets by:
 
 We create four variables from the raw data:
 
-**user** : Account 
-**text** :  Tweet
-**followers** :  Number of accounts that follow the given user
-**location** :  Geographic ubication of the given user
-**verified** :  Indicator equal 1 if the account has this condition
+* **user** : Account 
+* **text** :  Tweet
+* **followers** :  Number of accounts that follow the given user
+* **location** :  Geographic ubication of the given user
+* **verified** :  Indicator equal 1 if the account has this condition
 
 ## References
 
