@@ -41,8 +41,20 @@ We clean the tweets by:
 We consider the following methods
 
 
-## Naive Bayes Algorithm
+## Naive Bayes (NB) Algorithm
 
+This model applies Bayes theorem with a Naive assumption of no relationship between different features. According to Bayes theorem:
+Posterior = likelihood * proposition/evidence
+or
+P(A|B) = P(B|A) * P(A)/P(B)
+
+Naive Bayes Model works particularly well with text classification and spam filtering. Advantages of working with NB algorithm are:
+* Requires a small amount of training data to learn the parameters
+* Can be trained relatively fast compared to sophisticated models
+
+The main disadvantage of NB Algorithm is:
+* It’s a decent classifier but a bad estimator
+* It works well with discrete values but won’t work with continuous values (can’t be used in a regression)
 
 
 ## Logistic Regression
